@@ -1,0 +1,145 @@
+{
+  "info": {
+    "name": "OpenWeather Current Weather API Collection",
+    "description": "3 ways to fetch current weather info: by city, coordinates, zip.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Weather by City",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://api.openweathermap.org/data/2.5/weather?q=Seoul,KR&appid=<YOUR_API_KEY>&units=metric&lang=kr",
+          "protocol": "http",
+          "host": [
+            "api",
+            "openweathermap",
+            "org"
+          ],
+          "path": [
+            "data",
+            "2.5",
+            "weather"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "Seoul,KR"
+            },
+            {
+              "key": "appid",
+              "value": "<YOUR_API_KEY>"
+            },
+            {
+              "key": "units",
+              "value": "metric"
+            },
+            {
+              "key": "lang",
+              "value": "kr"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Weather by Coordinates",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://api.openweathermap.org/data/2.5/weather?lat=37.5665&lon=126.9780&appid=<YOUR_API_KEY>&units=metric&lang=kr",
+          "protocol": "http",
+          "host": [
+            "api",
+            "openweathermap",
+            "org"
+          ],
+          "path": [
+            "data",
+            "2.5",
+            "weather"
+          ],
+          "query": [
+            {
+              "key": "lat",
+              "value": "37.5665"
+            },
+            {
+              "key": "lon",
+              "value": "126.9780"
+            },
+            {
+              "key": "appid",
+              "value": "<YOUR_API_KEY>"
+            },
+            {
+              "key": "units",
+              "value": "metric"
+            },
+            {
+              "key": "lang",
+              "value": "kr"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Weather by ZIP",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://api.openweathermap.org/data/2.5/weather?zip=04524,KR&appid=<YOUR_API_KEY>&units=metric&lang=kr",
+          "protocol": "http",
+          "host": [
+            "api",
+            "openweathermap",
+            "org"
+          ],
+          "path": [
+            "data",
+            "2.5",
+            "weather"
+          ],
+          "query": [
+            {
+              "key": "zip",
+              "value": "04524,KR"
+            },
+            {
+              "key": "appid",
+              "value": "<YOUR_API_KEY>"
+            },
+            {
+              "key": "units",
+              "value": "metric"
+            },
+            {
+              "key": "lang",
+              "value": "kr"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
