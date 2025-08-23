@@ -7,7 +7,8 @@
         "url": "http://api.openweathermap.org/data/2.5/weather",
         "params": {
           "q": "Seoul,KR",
-          "appid": "{{OPENWEATHER_API_KEY}}",
+          "appid": "{{8d4d3efc9b0068f6d315f2eacef8f70a}}",
+         # "appid": "{{OPENWEATHER_API_KEY}}",
           "units": "metric",
           "lang": "kr"
         },
@@ -24,7 +25,8 @@
         "params": {
           "lat": 37.5665,
           "lon": 126.9780,
-          "appid": "{{OPENWEATHER_API_KEY}}",
+          "appid": "{{8d4d3efc9b0068f6d315f2eacef8f70a}}",
+         # "appid": "{{OPENWEATHER_API_KEY}}",
           "units": "metric",
           "lang": "kr"
         },
@@ -40,7 +42,8 @@
         "url": "http://api.openweathermap.org/data/2.5/weather",
         "params": {
           "zip": "04524,KR",
-          "appid": "{{OPENWEATHER_API_KEY}}",
+          "appid": "{{8d4d3efc9b0068f6d315f2eacef8f70a}}",
+         # "appid": "{{OPENWEATHER_API_KEY}}",
           "units": "metric",
           "lang": "kr"
         },
