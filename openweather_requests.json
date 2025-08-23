@@ -8,7 +8,7 @@
         "params": {
           "q": "Seoul,KR",
           "appid": "{{8d4d3efc9b0068f6d315f2eacef8f70a}}",
-         # "appid": "{{OPENWEATHER_API_KEY}}",
+
           "units": "metric",
           "lang": "kr"
         },
@@ -26,7 +26,7 @@
           "lat": 37.5665,
           "lon": 126.9780,
           "appid": "{{8d4d3efc9b0068f6d315f2eacef8f70a}}",
-         # "appid": "{{OPENWEATHER_API_KEY}}",
+
           "units": "metric",
           "lang": "kr"
         },
@@ -43,7 +43,7 @@
         "params": {
           "zip": "04524,KR",
           "appid": "{{8d4d3efc9b0068f6d315f2eacef8f70a}}",
-         # "appid": "{{OPENWEATHER_API_KEY}}",
+
           "units": "metric",
           "lang": "kr"
         },
