@@ -1,3 +1,4 @@
+#지역 제한 없는 조회 코드
 {
   "name": "OpenWeather",
   "url": "https://api.openweathermap.org/data/2.5",
@@ -6,10 +7,10 @@
   "tags": ["Weather", "OpenWeather"],
   "models": [
     {
-      "id": "current-weather-city",
-      "name": "Current Weather (City)",
-      "endpoint": "/weather?q={city}&units=metric&lang=en&appid={key}",
-      "description": "Get current weather by city name"
+      "id": "current-weather-city-country",
+      "name": "Current Weather (City, Country)",
+      "endpoint": "/weather?q={city},{country}&units=metric&lang=en&appid={key}",
+      "description": "Get current weather by city name and country code (ISO 3166)"
     },
     {
       "id": "current-weather-coords",
@@ -18,10 +19,11 @@
       "description": "Get current weather by latitude/longitude"
     },
     {
-      "id": "forecast",
-      "name": "5-Day Forecast",
-      "endpoint": "/forecast?q={city}&units=metric&lang=en&appid={key}",
-      "description": "Get 5-day weather forecast by city name"
+      "id": "forecast-city-country",
+      "name": "5-Day Forecast (City, Country)",
+      "endpoint": "/forecast?q={city},{country}&units=metric&lang=en&appid={key}",
+      "description": "Get 5-day weather forecast by city name and country code (ISO 3166)"
     }
   ]
 }
+
