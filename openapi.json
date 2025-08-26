@@ -1,4 +1,4 @@
-/지역 제한 없는 조회 코드
+#지역 제한 없는 조회 코드
 {
   "name": "OpenWeather",
   "url": "https://api.openweathermap.org/data/2.5",
@@ -26,5 +26,6 @@
     }
   ]
 }
+
 
 
